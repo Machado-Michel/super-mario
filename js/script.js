@@ -47,6 +47,7 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener('keydown', jump);
+document.addEventListener('touchstart', jump);
 
 const restartBtn = document.getElementById('restart-btn');
 restartBtn.addEventListener('click', () => {
